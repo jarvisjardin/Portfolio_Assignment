@@ -1,0 +1,177 @@
+*{
+	margin: 0 auto;
+	
+}
+
+body{
+	background-image: url('imgs/straws.png');
+}
+
+#wrapper{
+	margin: 0 auto;
+	max-width:928px;
+	width:100%;
+	
+}
+#logo{	
+	background-image:url('imgs/logo.png');
+	height:276px;
+	
+}
+
+#splash{
+	background-color: #7e0d0d;
+	color:white;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #888;
+	margin-top: 10px;
+	max-width:920px;
+	width:100%;
+}
+#splash_content{
+	padding:5%;
+	
+}
+
+#splash_me{
+	border: 10px solid #5e1b1b; 
+	-moz-border-bottom-colors: #555 #666 #777 #888 #999 #aaa #bbb #ccc; 
+	-moz-border-top-colors: #555 #666 #777 #888 #999 #aaa #bbb #ccc;
+	-moz-border-left-colors: #555 #666 #777 #888 #999 #aaa #bbb #ccc;
+	-moz-border-right-colors: #555 #666 #777 #888 #999 #aaa #bbb #ccc; 
+	padding: 2px 2px 2px 2px;
+}
+#splash_quote{
+	max-width:500px;
+	width:100%;
+	float:right;
+	font-size: 30px;
+	padding-top: 10%;
+	clear:both;
+
+}
+#dropdown_title{
+	color:#ffffff;
+	font-size: 30px;
+	margin-left: 2%
+
+}
+
+#dropdown_more{
+	background-image: url('imgs/dd_more.png');
+	max-height: 45px;
+	height:100%;
+	margin-top: 15px;
+}
+
+#dropdown_content{
+	display:none;
+}
+
+#dropdown_less{
+	background-image: url('imgs/dd_less.png');
+	max-height: 45px;
+	height:100%;
+	margin-top: 15px;
+
+}
+
+#dropdown_bg{
+	background-image: url('imgs/dd_bg.png');
+}
+
+#dropdown_wrapper{
+	background-color: #f3f3f3;
+	max-width:850px;
+	width:100%;
+}
+
+
+#article{
+	width:600px;
+	padding: 2% 1%;
+	display: inline-block;
+	float: left;
+	font-size: 20px;
+	
+}
+
+#list{
+	width:200px;
+	display: inline-block;
+	padding: 2% 1%;
+
+}
+#list h3{
+ color:#7e0d0d;
+}
+
+#list li{
+	list-style-type: katakana-iroha;
+	
+}
+
+
+
+#dropdown_bot{
+	background-image: url('imgs/dd_bot.png');
+	height: 46px;
+}
+
+#footer{
+	text-align: center
+}
+
+/*===== IPHONE 5 =======*/
+@media only screen and (max-width : 650px) {
+	#logo{
+		margin-top: -60px;
+		margin-left: -140px;
+	}
+	#splash_quote{
+		width:50%;
+		font-size: 50px;
+		padding-top: 5%;
+	
+	}
+	#dropdown_title{
+		color:#ffffff;
+		font-size: 40px;
+		margin-left: 2%;
+		text-align: center;
+	
+	}
+	#dropdown_more{
+		background-image: url('imgs/dd_more.png');
+		height:100%;
+		margin-top: 15px;
+	}
+	
+	#dropdown_more{
+		margin-left: -50px;
+
+	}
+	#dropdown_content{
+		margin-left: -50px;
+	}
+	
+	#dropdown_wrapper{
+		width:90%;
+		margin-right: 10px;
+	}
+	#article{
+		font-size: 30px;
+		text-align: center;	
+	}
+	#list{
+		padding-top: 5%;
+		font-size: 30px;
+		margin-left: 200px;
+	}
+	#footer{
+		font-size: 30px;
+	}
+		
+	
+}
