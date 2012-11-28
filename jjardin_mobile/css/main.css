@@ -126,8 +126,9 @@ body{
 /*===== IPHONE 5 =======*/
 @media only screen and (max-width : 650px) {
 	#logo{
-		margin-top: -60px;
+		margin-top: -50px;
 		margin-left: -140px;
+		color:white;
 	}
 	#splash_quote{
 		width:50%;
@@ -167,11 +168,31 @@ body{
 	#list{
 		padding-top: 5%;
 		font-size: 30px;
-		margin-left: 200px;
+		width:80%;
+		margin-left: 100px;
 	}
 	#footer{
 		font-size: 30px;
 	}
 		
 	
+}
+/*======== 860px ========*/
+@media only screen and (max-width : 840px){
+	#splash_quote{
+		width:50%;
+		font-size: 50px;
+		padding-top: 5%;
+	
+	}
+}
+
+/*======== IPAD =======*/
+@media only screen and (max-width : 768px){
+	#splash_quote{
+		font-size: 50px;
+		padding-top: 5%;
+	
+	}
+
 }
